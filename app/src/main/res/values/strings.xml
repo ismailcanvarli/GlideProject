@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">GlideProject</string>
+    <string-array name="image_names">
+        <item>12monkeys.png</item>
+        <item>batman.png</item>
+        <item>bladerunner.png</item>
+        <item>catsby.png</item>
+        <item>django.png</item>
+        <item>dune.png</item>
+        <item>game.png</item>
+        <item>harrypotter.png</item>
+        <item>hobbit.png</item>
+        <item>inception.png</item>
+        <item>intersteller.png</item>
+        <item>jhonwick.png</item>
+        <item>joker.png</item>
+        <item>killbill.png</item>
+        <item>prestige.png</item>
+        <item>scarface.png</item>
+        <item>starwars.png</item>
+        <item>tenet.png</item>
+        <item>thehatefuleight.png</item>
+        <item>thepianist.png</item>
+    </string-array>
+</resources>
