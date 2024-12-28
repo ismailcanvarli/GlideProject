@@ -31,16 +31,26 @@ fun HomePage() {
         verticalArrangement = Arrangement.SpaceEvenly
     ) {
         val url = "http://kasimadalan.pe.hu/movies/images/${imageName.value}"
+
         GlideImage(
             imageModel = url,
             contentDescription = "Glide Image",
             modifier = Modifier.size(200.dp, 300.dp)
         )
-
         Button(onClick = {
             imageName.value = imageNames[Random.nextInt(imageNames.size)]
         }) {
             Text(text = "Rastgele Resim")
+        }
+        Button(onClick = {
+            imageName.value = imageNames[0]
+        }) {
+            Text(text = "İlk Resim")
+        }
+        Button(onClick = {
+            imageName.value = imageNames[imageNames.size - 1]
+        }) {
+            Text(text = "Son Resim")
         }
     }
 }
